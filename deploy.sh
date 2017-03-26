@@ -1,11 +1,11 @@
 #!/bin/bash
-
+   marathon="localhost"
 if [ -z "${1}" ]; then
    version="latest"
    marathon="localhost"
 else
    version="${1}"
-   marathon=${MARATHON_PORT_8080_TCP_ADDR}
+  # marathon=${MARATHON_PORT_8080_TCP_ADDR}
 fi
 
 # destroy old application
