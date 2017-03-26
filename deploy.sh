@@ -1,6 +1,6 @@
 #!/bin/bash
 
- marathon="localhost"
+ marathon="127.0.0.1"
 
 if [ -z "${1}" ]; then
    version="latest"
